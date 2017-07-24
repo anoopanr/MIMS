@@ -1,0 +1,68 @@
+table{
+    
+}
+input[type=submit]
+{width: 40%;
+    border: none; /* Remove borders */
+    background-color: green;
+    color: greenyellow; /* Add a text color */
+    padding: 6px 20px; /* Add some padding */
+    cursor: pointer;
+}
+input[type=reset]
+{
+    width: 40%;
+    border: none; /* Remove borders */
+    background-color: red;
+    color: black; /* Add a text color */
+    padding: 6px 20px; /* Add some padding */
+    cursor: pointer;
+}
+a
+{
+  color: yellow;  
+}
+td
+{
+   
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+   tr
+   {
+       background: #353524
+   }
+   tr:hover
+   {
+       
+   }
+input[type=text], input[type=password],input[type=number],input[type=email] {
+    width: 100%;
+    padding: 6px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.ddselect:hover{
+   position: relative;
+    display: inline-block;
+}
+.ddoption:hover
+{
+     display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+textarea{
+    columns: 3;
+    rows:10;
+}
+select{
+    width: 100%
+}
